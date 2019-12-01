@@ -61,6 +61,7 @@ while not done:
     for y,row in enumerate(data[::SPACING]):
         drawrow(row,(y*SPACING)+TOPMARGIN)
         sleep(0.03)
+    p.image.save(s,"polska.jpg")
     drawn = True
 
     # p.display.flip
